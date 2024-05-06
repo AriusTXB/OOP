@@ -20,6 +20,6 @@ public class isValidDNA
             {System.out.println("True");}
         else
             {System.out.println("False");}
-
+        sc.close();
     }
 }
