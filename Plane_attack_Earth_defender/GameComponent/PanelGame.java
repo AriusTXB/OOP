@@ -113,7 +113,7 @@ public class PanelGame extends JComponent
                 while(START)
                     {
                         addUFO();
-                        Delay((long)(4000*Math.log(102-Enemy)));
+                        Delay((long)(1500*Math.log(Enemy)));
                     }
             }
         }).start();
@@ -379,7 +379,7 @@ public class PanelGame extends JComponent
     if(Enemy!=0)
         {   
             Random ran = new Random();
-            int locationX = ran.nextInt(1366);
+            int locationX = ran.nextInt(1350);
             Ufo ufo = new Ufo();
             ufo.changeLocation(locationX, HEIGHT);
             ufo.changeAngle(0);
