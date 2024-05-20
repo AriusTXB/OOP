@@ -45,7 +45,6 @@ public class Ufo extends HpRender
         if(angle < 0)
             {
                 angle = 359;
-
             }
         else if(angle > 359 )
             {

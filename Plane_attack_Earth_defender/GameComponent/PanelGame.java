@@ -113,7 +113,10 @@ public class PanelGame extends JComponent
                 while(START)
                     {
                         addUFO();
-                        Delay((long)(1500*Math.log(Enemy)));
+                        if(Enemy>=64)
+                            {Delay((long)(1500*Math.log(Enemy)));}
+                        else
+                            {Delay(188);}
                     }
             }
         }).start();
